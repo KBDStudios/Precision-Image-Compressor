@@ -1,3 +1,5 @@
+<img width="1654" height="844" alt="Demonstration Precision Image Compressor" src="https://github.com/user-attachments/assets/7fc192b0-73ba-4947-9d4c-4df6e7a38a47" />
+
 # Precision Image Compressor (Animated Edition)
 
 A specialized, high-performance GUI utility developed by **KBDStudios** for compressing images to precise target file sizes (Bytes/KB/MB) purely in memory. 
