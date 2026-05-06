@@ -6,6 +6,14 @@ A specialized, high-performance GUI utility developed by **KBDStudios** for comp
 
 Unlike standard compressors that ask for a generic "quality percentage," this tool allows you to input an exact target file size. It utilizes a binary search algorithm to perfectly calculate JPEG quality, and a dynamic resolution downscaler for formats like PNG, BMP, and animated files to ensure you hit your exact size requirements. 
 
+## 💻 **System Requirements & Architecture:**
+
+**Pre-compiled Release (.exe):**
+The standalone release build is compiled specifically for **Client Windows** environments (x64/x86 architecture).
+
+**Source Code (Python):**
+If you want to use this on **macOS**, **Linux**, or other operating systems, you can simply download the source code and run the Python scripts natively using your own Python environment.
+
 ## ✨ Features
 
 * **Target-Size Compression:** Input your desired file size in Bytes, KB, MB, or GB, and the tool mathematically finds the best visual quality to match it.
@@ -40,6 +48,17 @@ For developers or users running the raw Python script:
        pip install pillow-heif
 
 4. Run the `PrecisionImageCompressor.pyw` script.
+
+## ⚠️ **File Exports & Windows Security:**
+Windows "Tamper Protection" (often tied to **Real-time protection** in Client Windows 7/10/11) or third-party antivirus software may sometimes block the tool from exporting files.
+
+If your exports are failing, simply add the tool's folder to your antivirus exclusions:
+1. Open **Windows Security** > **Virus & threat protection**.
+2. Under *Virus & threat protection settings*, click **Manage settings**.
+3. Scroll down to *Exclusions* and click **Add or remove exclusions**.
+4. Click **Add an exclusion** > **Folder**, and select the folder where this tool is located.
+
+*(Note: While you can temporarily disable Tamper/Real-time protection to force an export, adding a folder exclusion is safer and only needs to be done once.)*
 
 ## 📄 License
 This software is provided under a custom Proprietary Freeware License. It is strictly for personal, non-commercial use. Modification or creation of derivative works is prohibited. Please see the LICENSE.txt file for complete details.
