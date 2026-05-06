@@ -2,11 +2,11 @@
 
 
 a = Analysis(
-    ['PrecisionImageCompressor.py'],
+    ['PrecisionImageCompressor.pyw'],
     pathex=[],
     binaries=[],
     datas=[],
-    hiddenimports=['pillow_heif', 'pillow_avif'],
+    hiddenimports=['pillow_heif'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
